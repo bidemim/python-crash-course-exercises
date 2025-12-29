@@ -1,3 +1,4 @@
+# already had the for loop working in the previous exercise
 glossary = {
     'string literal': 'A series of characters surrounded by quotes.',
     'list': 'A collection of items in a particular order.',
@@ -12,8 +13,7 @@ glossary = {
     'tuple': 'An immutable ordered collection of items.',
     'set': 'An unordered collection of unique items.',
     'immutable': 'A property of an object that prevents it from being changed after it is created.',
-    'mutable': 'A property of an object that allows it to be changed after it is created.',
-    'object view': ''
+    'mutable': 'A property of an object that allows it to be changed after it is created.'
     ,
 }
 
