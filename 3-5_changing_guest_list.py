@@ -8,4 +8,4 @@ print(f"Looks like {guest_list[1]} can't make it to the party.")
 guest_list[1] = 'Soon-ja'
 
 for guest in guest_list:
-    print(f'Hi {guest}, you are invited to my dinner party on January 5 at 6pm. Address is 1122 Parkinson Drive. See you then!')
+    print(f'Hi {guest}, you are invited to my dinner party on January 5 at 6pm. See you then!')

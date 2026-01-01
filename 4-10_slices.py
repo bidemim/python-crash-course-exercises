@@ -1,4 +1,4 @@
-pizza_toppings = ['veggie', 'cheese', 'mushroom', 'chicken', 'pepperoni']
+pizza_toppings = ['veggie', 'cheese', 'mushroom', 'chicken', 'pineapple']
 
 print('The first three items in the list are:')
 print(pizza_toppings[0:3])
