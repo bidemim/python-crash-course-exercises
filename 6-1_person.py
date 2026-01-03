@@ -5,4 +5,8 @@ person = {
     'city': 'Los Angeles',
 }
 
-print()
+for key, value in person.items():
+    if isinstance(value, str):
+        print(f'{key.title()}: {value.title()}')
+    else:
+        print(f'{key.title()}: {value}')
