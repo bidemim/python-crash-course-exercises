@@ -1,11 +1,15 @@
-life_stage = 3
+life_stage = 130
 
-if life_stage > 2:
+if life_stage < 2:
     stage = 'infant'
-elif 2 > life_stage < 4:
+elif life_stage < 4:
     stage = 'toddler'
-elif 4 >= life_stage < 13:
+elif life_stage < 13:
     stage = 'kid'
-
-
-print(f'You are a(n) {stage}')
+elif life_stage < 20:
+    stage = 'teenager'
+elif life_stage < 65:
+    stage = 'adult'
+else:
+    stage = 'senior'
+print(f'You are at the {stage} stage.')
