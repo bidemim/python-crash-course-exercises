@@ -1,7 +1,8 @@
 alien_color = ['green', 'yellow', 'red']
-for color in alien_color:
-    if color == 'green':
-        print('You just earned 5 points!')
+target_colors = ['green', 'pink']
 
-# version that fails
-print(color)
+for color in alien_color:
+    if color in target_colors:
+        print(f'{color}: You just earned 5 points!')
+    else:
+        print(f'{color}: No points earned.')

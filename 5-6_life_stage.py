@@ -1,4 +1,4 @@
-life_stage = 130
+life_stage = 13
 
 if life_stage < 2:
     stage = 'infant'
@@ -11,5 +11,5 @@ elif life_stage < 20:
 elif life_stage < 65:
     stage = 'adult'
 else:
-    stage = 'senior'
+    stage = 'elder'
 print(f'You are at the {stage} stage.')
