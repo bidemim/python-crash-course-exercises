@@ -1,6 +1,6 @@
 # I have a few ideas I would love to explore:
 # 
-# Build a 2d game like some of the ones I played as kids - bounce, space escape,
+# Build a 2d game like some of the ones I played as a kid - bounce, space escape,
 # snake etc
 # 
 # working with files - i would create a python script that sorts and arranges all 
