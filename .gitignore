@@ -158,3 +158,4 @@ private.key
 private.pem
 *.vault
 
+sort_chapters.sh

@@ -3,4 +3,4 @@ def make_shirt(message, size='large'):
 
 make_shirt('I love Python.')
 make_shirt('I love Python.', 'medium')
-make_shirt('welcome to a new dispensation', 'small')
+make_shirt('Go hiking!', 'small')
