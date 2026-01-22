@@ -3,7 +3,6 @@ def show_messages(messages):
     for message in messages:
         print(message)
        
-
 def send_messages(messages):
     while messages:
         display_message = messages.pop()
