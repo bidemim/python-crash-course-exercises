@@ -1,0 +1,3 @@
+1. In python you can work with files from your local drive.
+2. In python you can work define real life objects using data structures.
+3. In python you can get input from users and write the output to different files.
