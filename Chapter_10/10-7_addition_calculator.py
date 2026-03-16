@@ -1,18 +1,26 @@
-# adding an exception for an unexpected input
+# put the program in 10-6 into a while loop
 
-print("This is your brand new calculator, enter me two numbers and I'll add them.")
-print("Enter 'q' to quit.")
-
-while True:
-    first_number = input('\nFirst number: ')
+# start with a while loop
+def sum_of_numbers():
+    print('Give me two numbers to add.')
+    print("Press 'q' anytime to quit the program")
+    
+    # get input from user
+    first_number = input('Enter a number:  ').strip()
     if first_number == 'q':
-        break
-    second_number = input('\nSecond number: ')
+        return False
+    second_number = input('Enter another number: ').strip()
     if second_number == 'q':
-        break
+        return False
+    # convert user input to integers 
+    # now try catching the error
     try:
         result = int(first_number) + int(second_number)
     except ValueError:
-        print('Please enter a number!')
+        print(f'You need to provide a number!')
     else:
-        print(f'Result is {result}.')
+        print(f'{result} is the sum of both numbers!')
+
+while True:
+    if not sum_of_numbers():
+        continue

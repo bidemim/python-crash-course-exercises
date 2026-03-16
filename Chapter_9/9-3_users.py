@@ -1,15 +1,19 @@
 class User:
     # representing details about users
+   
     def __init__(self, first_name, last_name, location, age):
         # initialize user attributes
         self.name = first_name + ' ' + last_name
       #  self.name = last_name
         self.location = location
-        self.age = age    
+        self.age = age  
+        self.number_served = 0  
     # describe and summarize information about user
+   
     def describe_user(self):
         print(f'\nUser details: \n- {self.name} \n- {self.location} \n- {self.age}')
     # greet user
+   
     def greet_user(self):
         print(f'Hello, {self.name}')
 

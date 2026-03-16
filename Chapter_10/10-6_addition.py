@@ -1,17 +1,19 @@
-# adding an exception for an unexpected input
-print("This is your brand new calculator, enter me two numbers and I'll add them.")
-print("Enter 'q' to quit.")
+# catch ValueErrors in a simple calculator
 
-while True:
-    first_number = input('\nFirst number: ')
-    if first_number == 'q':
-        break
-    second_number = input('\nSecond number: ')
-    if second_number == 'q':
-        break
+# now define a function that so the entire program is portable
+def sum_of_numbers():
+    print('Give me two numbers to add.')
+    
+    # get input from user
+    first_number = input('Enter a number:  ')
+    second_number = input('Enter another number: ')
+
+    # convert user input to integers and try catching the valueerror
     try:
         result = int(first_number) + int(second_number)
     except ValueError:
-        print('Please enter a number!')
+        print(f'You need to provide a number!')
     else:
-        print(f'Result is {result}.')
+        print(f'{result} is the sum of both numbers!')
+
+sum_of_numbers()

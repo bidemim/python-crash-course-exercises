@@ -5,7 +5,6 @@ def read_animal_names(path):
     try:
         contents = path.read_text()
     except FileNotFoundError:
-        # print(f'Sorry the file {path} does not exist.')
         # failing silently 
         pass
     else:

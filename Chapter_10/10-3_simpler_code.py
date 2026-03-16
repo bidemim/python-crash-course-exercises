@@ -4,11 +4,11 @@
 
 from pathlib import Path
 
-path = Path('pi_digits.txt')
+path = Path('txt_files/pi_digits.txt')
 # contents = path.read_text().rstrip()
 contents = path.read_text()
-# this exercise is to write simpler and more concise code by 
-# skipping the lines variable.
+
+# this line attempts to write simpler and more concise code by 
+# not creating a 'lines' variable.
 for line in contents.splitlines():
     print(line)
-
