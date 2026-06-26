@@ -2,6 +2,8 @@
 from pathlib import Path
 import json
 
+# add path
+path = Path("./txt_files/")
 
 def get_stored_username(path):
     """Get stored username if available."""
