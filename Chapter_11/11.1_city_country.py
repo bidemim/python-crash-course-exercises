@@ -15,5 +15,5 @@ while True:
     if population == 'e':
         break
 
-    city_country = get_city_and_country(city, country)
+    city_country = get_city_and_country(city, country, population)
     print(f"\tCity and Country name: {city_country}")
