@@ -12,10 +12,10 @@ while True:
         break
 
     population = input("Please enter the city's population: ")
-    if population == "usa" or "uk" or "uae":
-        population.capitalize()
     if population == 'e':
         break
+    elif population == "usa" or "uk" or "uae":
+        population.capitalize()
 
     city_country = get_city_and_country(city, country, population)
     print(f"\tCity and Country name: {city_country}")
