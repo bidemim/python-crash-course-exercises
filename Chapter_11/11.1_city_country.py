@@ -12,6 +12,8 @@ while True:
         break
 
     population = input("Please enter the city's population: ")
+    if population == "usa" or "uk" or "uae":
+        population.capitalize()
     if population == 'e':
         break
 
