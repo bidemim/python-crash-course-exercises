@@ -11,5 +11,9 @@ while True:
     if country == 'e':
         break
 
+    population = input("Please enter the city's population: ")
+    if population == 'e':
+        break
+
     city_country = get_city_and_country(city, country)
     print(f"\tCity and Country name: {city_country}")
